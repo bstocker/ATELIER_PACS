@@ -196,8 +196,8 @@ Important : à la fin coller **/dcm4chee-arc/ui2/fr/index.html** à la fin de vo
 ---------------------------------------------------
 Séquence 4 : Envoyer une image DICOM dans le PACS
 ---------------------------------------------------
-Objectif : Simuler une modalité qui envoi une image DICOM dans le PACS 
-Difficulté : facile (~10 minutes)
+Objectif : Simuler une modalité qui envoi une image DICOM dans le PACS  
+Difficulté : facile (~5 minutes)
 ---------------------------------------------------
 Dans cette séquence nous allons simuler une modalité qui envoi l'image DICOM de Mr Brain dans le PACS. Le répertoire samples de ce Repository contient quelques images DICOM prêtes à e^tre envoyées dans le PACS.  
   
