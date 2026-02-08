@@ -191,7 +191,7 @@ docker-compose up -d
 ```
 **Réccupération de l'URL de l'application PACS** 
 Votre application PACS est déployée dans votre environnement Codespace. Pour obtenir votre URL de votre PACS cliquez sur l'onglet **[PORTS]** dans votre Codespace et rendez public votre port **8443** (Visibilité du port).  
-Important : à la fin coller **/dcm4chee-arc/ui2/fr/index.html** à la fin de votre URL. C'est terminé !
+**Important** : à la fin coller **/dcm4chee-arc/ui2/fr/index.html** à la fin de votre URL. C'est terminé !
 
 ---------------------------------------------------
 Séquence 4 : Envoyer une image DICOM dans le PACS
@@ -200,6 +200,10 @@ Objectif : Simuler une modalité qui envoi une image DICOM dans le PACS
 Difficulté : facile (~5 minutes)
 ---------------------------------------------------
 Dans cette séquence nous allons simuler une modalité qui envoi l'image DICOM de Mr Brain dans le PACS. Le répertoire samples de ce Repository contient quelques images DICOM prêtes à e^tre envoyées dans le PACS.  
+
+**Positionnement de cette séquence dans une architecture PACS :**   
+  
+![Screenshot Actions](Architecture_cible_PACS_2.png)   
   
 Dans le terminal du Codespace copier/coller le code :
     
