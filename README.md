@@ -18,7 +18,7 @@ Difficulté : Très facile (~5 minutes)
   
 **2°** - **Faites un Fork de ce projet**. Si besion, voici une vidéo d'accompagnement pour vous aider dans les "Forks" : [Forker ce projet](https://youtu.be/p33-7XQ29zQ) 
   
-**3°** - Ensuite depuis l'onglet **[CODE]** de votre nouveau Repository, **ouvrez un Codespace Github**. Choisir une instance de 4 coeurs 16Go puis lancer votre Codespace.
+**3°** - Ensuite depuis l'onglet **[CODE]** de votre nouveau Repository, **ouvrez un Codespace Github**.
 
 ---------------------------------------------------
 Séquence 2 : Création de l'environnement de travail
