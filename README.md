@@ -24,7 +24,7 @@ Difficulté : Très facile (~5 minutes)
 Séquence 2 : Création de l'environnement de travail
 ---------------------------------------------------
 Objectif : Mettre en services les outils DICOM CLI  
-Difficulté : Simple (~10 minutes)
+Difficulté : Simple (~15 minutes)
 ---------------------------------------------------
 Vous allez dans cette séquence compiler et mettre en service votre caisse à outils qui vous permettront de travailler vos images DICOM.  
 Dans le terminal du Codespace copier/coller les codes ci-dessous etape par étape :  
