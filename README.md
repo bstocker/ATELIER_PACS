@@ -222,9 +222,6 @@ Nous pouvons à présente retrouver l'image de Mr Brain dans le PACS via le proc
 
 
 
-
-
-
 ---------------------------------------------------
 Séquence 3 : Exercice
 ---------------------------------------------------
