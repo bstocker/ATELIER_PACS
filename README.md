@@ -216,64 +216,53 @@ storescu -c DCM4CHEE@localhost:11112 ./samples/0001.DCM
 Nous pouvons à présente retrouver l'image de Mr Brain dans le PACS via le processus suivant :
 
 ![Screenshot Actions](Visionner_image.png)
-
   
-
-
-
-
 ---------------------------------------------------
-Séquence 3 : Exercice
+Séquence 5 : Exercice
 ---------------------------------------------------
-Objectif : Prendre en main l'environnement DICOM CLI  
+Objectif : Prendre en main l'environnement PACS  
 Difficulté : Simple (~15 minutes)
 ---------------------------------------------------
-Utilisation de l'outil dcm2jpg : **dcm2jpg** permet de **convertir des images DICOM en images jpg** (ou autres formats d'images). Dans cet atelier des images DICOM d'exemple sont déposés dans le répertoire samples. Pour convertir l'image 0001.DCM en image 0001.jpg lancez la commande suivante :  
-
-```
-dcm2jpg ./samples/0001.DCM ./samples/0001.jpg
-```
-L'image 0001.jpg est disponible dans le répertoire samples dans votre Codespace. Vous pouvez télécharger cette image et observer le résultat.
-
-**Exercice**  
-Convertissez en jpg toutes les images DICOM présentes dans le répertoire samples de ce projet.  
-
+Le répertoire samples de votre Codespace contient plusieurs images DICOM 0002.DMC, 0003.DMC et 0004.DMC.  
+**Travail demandé :** Envoyez les images 0002.DMC, 0003.DMC et 0004.DMC dans le PACS et visionner le résultat via l'interface Web.  
+  
 ---------------------------------------------------
-Séquence 4 : Atelier N° 1
+Séquence 6 : Atelier N° 1
 ---------------------------------------------------
-Objectif : Découvrir les outils DICOM  
+Objectif : Découvrir les outils PACS  
 Difficulté : Moyenne (~1h30)
 ---------------------------------------------------
-Choisir 5 outils dans la liste des outils disponibles dans cet atelier (liste disponibile dans la séquence 2) et expliquez nous leur utilité et comment les utiliser. **Complétez et documentez ce fichier README.md** pour nous présenter ces 5 outils et comment les utiliser.
+Choisir 5 outils dans le PACS disponibles dans cet atelier et expliquez nous leur utilités et comment les utiliser.  
+**Complétez et documentez ce fichier README.md** pour nous présenter ces 5 outils et comment les utiliser.  
 
-**Outil N°1**  
+**Outil PACS N°1**  
 Cet outil est utilisé pour ... voici comment l'utiliser ...
 
-**Outil N°2**  
+**Outil PACS N°2**  
 Cet outil est utilisé pour ... voici comment l'utiliser ...  
 
-**Outil N°3**  
+**Outil PACS N°3**  
 Cet outil est utilisé pour ... voici comment l'utiliser ...  
 
-**Outil N°4**  
+**Outil PACS N°4**  
 Cet outil est utilisé pour ... voici comment l'utiliser ...  
 
-**Outil N°5**  
+**Outil PACS N°5**  
 Cet outil est utilisé pour ... voici comment l'utiliser ...  
 
 ---------------------------------------------------
-Séquence 5 : Atelier N° 2
+Séquence 7 : Atelier N° 2
 ---------------------------------------------------
-Objectif : Zoom sur un outil DICOM  
+Objectif : Zoom sur un outil PACS  
 Difficulté : Moyenne (~1h)
 ---------------------------------------------------
-Parmi les cinq outils qui vous ont été présentés, choisissez-en un et proposez un atelier à réaliser en classe. **Complétez et documentez cette section de README.md** afin de présenter clairement votre atelier (objectifs, étapes, prérequis, résultats attendus).  
+Parmi les cinq outils PACS qui vous ont été présentés, choisissez-en un et proposez un atelier à réaliser en classe. **Complétez et documentez cette section de README.md** afin de présenter clairement votre atelier (objectifs, étapes, prérequis, résultats attendus).  
 
 ---------------------------------------------------
 Evaluation
 ---------------------------------------------------
 Cet atelier, **noté sur 20 points**, est évalué sur la base du barème suivant :  
-- Pertinance des explications sur les outils présentés (5 points)
+- Pertinance des explications sur les outils PACS présentés (5 points)
 - Qualité du scénario présenté dans l'atelier N°2 (4 points)
 - Degré de technicité des ateliers 1 et 2 (4 points)
 - Qualité du Readme (lisibilité, erreur, ...) (4 points)
