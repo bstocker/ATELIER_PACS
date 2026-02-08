@@ -196,22 +196,27 @@ Votre application PACS est déployée dans votre environnement Codespace. Pour o
 ---------------------------------------------------
 Séquence 4 : Envoyer une image DICOM dans le PACS
 ---------------------------------------------------
-Objectif : Simuler une modalité qui envoi une image DICOM dans le PACS  
-Difficulté : facile (~5 minutes)
+Objectif : Simuler une modalité qui envoie une image DICOM dans le PACS  
+Difficulté : simple (~15 minutes)
 ---------------------------------------------------
-Dans cette séquence nous allons simuler une modalité qui envoi l'image DICOM de Mr Brain dans le PACS. Le répertoire samples de ce Repository contient quelques images DICOM prêtes à e^tre envoyées dans le PACS.  
+Dans cette séquence nous allons simuler une modalité qui envoie l'image DICOM de Mr Brain dans le PACS.  
+Le répertoire samples de ce Repository contient quelques images DICOM prêtes à l'emploi et pouvant être envoyées dans le PACS.  
 
 **Positionnement de cette séquence dans une architecture PACS :**   
   
 ![Screenshot Actions](Architecture_cible_PACS_2.png)   
   
-Dans le terminal du Codespace copier/coller le code :
+Envoyons une image dans le PACS. Dans le terminal du Codespace copier/coller le code suivant :
     
 ```
 storescu -c DCM4CHEE@localhost:11112 ./samples/0001.DCM
 ```
+  
 **Visionner une image dans le PACS**    
-Nous pouvons retrouver l'image de Mr Brain dans le PACS via le processus suivant :  
+Nous pouvons à présente retrouver l'image de Mr Brain dans le PACS via le processus suivant :
+
+![Screenshot Actions](Visionner_image.png)
+
   
 
 
