@@ -1,13 +1,10 @@
 ------------------------------------------------------------------------------------------------------
-ATELIER DICOM (dcm4che)
+ATELIER PACS
 ------------------------------------------------------------------------------------------------------
 L’idée en 30 secondes : **dcm4che** est une **boîte à outils DICOM** open source qui permet en pratique de communiquer avec des PACS (envoyer, recevoir, rechercher et rapatrier des examens via storescu, storescp, findscu, movescu), d’inspecter et valider des fichiers DICOM (dcmdump, dcmvalidate pour lire les tags et vérifier la conformité), et de convertir les images médicales vers des formats courants (dcm2jpg, dcm2png, etc.) ; en résumé, c’est un **couteau suisse pour tester, intégrer et manipuler du DICOM** dans des projets d’**imagerie médicale**, que ce soit en contexte technique, pédagogique ou d’**intégration SIH**.
 
 dcm4che met à disposition des **outils en ligne de commande (CLI)** qui permettent de **manipuler des fichiers DICOM**, d’envoyer ou de recevoir des images médicales et d’analyser leur contenu ; ces outils peuvent s’enchaîner pour former un flux de travail complet autour de l’imagerie médicale. **dcm4che constitue aussi un véritable "moteur DICOM"** : il sert de base logicielle à des systèmes plus complets, notamment des PACS comme dcm4che**e**.  
-
-**Positionnement de cet atelier dans une architecture PACS :** Ci-dessous, les différentes couches techniques d'un PACS. Cette caisse à outils DICOM s'intercale entre le coeur Java et l'environnement PACS utilisateur.   
   
-![Screenshot Actions](Architecture_cible_PACS.png) 
 -------------------------------------------------------------------------------------------------------
 Séquence 1 : Codespace de Github
 -------------------------------------------------------------------------------------------------------
@@ -23,12 +20,17 @@ Difficulté : Très facile (~5 minutes)
 ---------------------------------------------------
 Séquence 2 : Création de l'environnement de travail
 ---------------------------------------------------
-Objectif : Mettre en services les outils DICOM CLI  
+Objectif : Mettre en services les outils DICOM CLI (Modalités) 
 Difficulté : Simple (~15 minutes)
 ---------------------------------------------------
-Vous allez dans cette séquence compiler et mettre en service votre caisse à outils qui vous permettront de travailler vos images DICOM.  
-Dans le terminal du Codespace copier/coller les codes ci-dessous etape par étape :  
+Dans cette séquence, vous allez mettre en place un environnement permettant de simuler des modalités d’imagerie médicale (scanner, radiographie, etc.).  
 
+**Positionnement de cette séquence dans une architecture PACS :** Ci-dessous, les différentes couches techniques d'un PACS. Cette caisse à outils DICOM s'intercale entre un socle Java et l'environnement PACS utilisateurs.   
+  
+![Screenshot Actions](Architecture_cible_PACS.png) 
+
+Dans le terminal du Codespace copier/coller les codes ci-dessous etape par étape :
+    
 **Mise en service des outils DICOM CLI**  
 ```
 sudo apt-get update
@@ -55,7 +57,7 @@ BIN_DIR="$(ls -d "$PWD"/dcm4che-*/bin | head -n 1)"
 export PATH="$BIN_DIR:$PATH"
 ```
   
-Les outils ci-dessous sont à présent en service
+Les outils ci-dessous sont à présent en service et peuvent être utilisés en mode CLI (ligne de commandes).
 ---------
 - [agfa2dcm][]: Extract DICOM files from Agfa BLOB file
 - [agfa2sr][]: Extract concatenated XML Agfa Reports and convert them to DICOM SR Documents
@@ -168,6 +170,34 @@ Les outils ci-dessous sont à présent en service
 [xml2dcm]: https://github.com/dcm4che/dcm4che/blob/master/dcm4che-tool/dcm4che-tool-xml2dcm/README.md
 [xml2hl7]: https://github.com/dcm4che/dcm4che/blob/master/dcm4che-tool/dcm4che-tool-xml2hl7/README.md
 [xroad]: https://github.com/dcm4che/dcm4che/blob/master/dcm4che-tool/dcm4che-tool-xroad/README.md
+
+---------------------------------------------------
+Séquence 3 : Installation du PACS
+---------------------------------------------------
+Objectif : Installer le PACS utilisateurs 
+Difficulté : facile (~10 minutes)
+---------------------------------------------------
+Dans cette séquence, vous allez installer un PACS dans votre environnement Codespace.  
+
+**Positionnement de cette séquence dans une architecture PACS :**   
+  
+![Screenshot Actions](Architecture_cible_PACS_1.png) 
+
+Dans le terminal du Codespace copier/coller les codes ci-dessous etape par étape :
+    
+**Mise en service des outils DICOM CLI**  
+```
+docker-compose up -d
+```
+
+
+
+
+
+
+
+
+
 
 ---------------------------------------------------
 Séquence 3 : Exercice
