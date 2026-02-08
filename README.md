@@ -174,7 +174,7 @@ Les outils ci-dessous sont à présent en service et peuvent être utilisés en 
 ---------------------------------------------------
 Séquence 3 : Installation du PACS
 ---------------------------------------------------
-Objectif : Installer le PACS utilisateurs 
+Objectif : Installer le PACS utilisateurs   
 Difficulté : facile (~10 minutes)
 ---------------------------------------------------
 Dans cette séquence, vous allez installer un PACS dans votre environnement Codespace.  
