@@ -20,7 +20,7 @@ Difficulté : Très facile (~5 minutes)
 ---------------------------------------------------
 Séquence 2 : Création de l'environnement de travail
 ---------------------------------------------------
-Objectif : Mettre en services les outils DICOM CLI (Modalités) 
+Objectif : Mettre en service les outils DICOM CLI (Modalités) 
 Difficulté : Simple (~15 minutes)
 ---------------------------------------------------
 Dans cette séquence, vous allez mettre en place un environnement permettant de simuler des modalités d’imagerie médicale (scanner, radiographie, etc.).  
