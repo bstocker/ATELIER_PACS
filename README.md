@@ -5,9 +5,9 @@ L’idée en 30 secondes : **dcm4che** est une **boîte à outils DICOM** open s
 
 dcm4che met à disposition des **outils en ligne de commande (CLI)** qui permettent de **manipuler des fichiers DICOM**, d’envoyer ou de recevoir des images médicales et d’analyser leur contenu ; ces outils peuvent s’enchaîner pour former un flux de travail complet autour de l’imagerie médicale. **dcm4che constitue aussi un véritable "moteur DICOM"** : il sert de base logicielle à des systèmes plus complets, notamment des PACS comme dcm4che**e**.  
 
-**Architecture PACS :** Ci-dessous, les différentes couches techniques d'un PACS cible.   
+**Architecture PACS complette :** Ci-dessous, les différentes couches techniques d'un PACS. Cette caisse à outils DICOM s'intercale entre le coeur Java et un PACS complet.   
   
-![Screenshot Actions](Architecture_cible.png) 
+![Screenshot Actions](Architecture_cible_PACS.png) 
   
 -------------------------------------------------------------------------------------------------------
 Séquence 1 : Codespace de Github
