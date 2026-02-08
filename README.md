@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------------------
-ATELIER DICOM
+ATELIER DICOM (dcm4che)
 ------------------------------------------------------------------------------------------------------
 L’idée en 30 secondes : **dcm4che** est une **boîte à outils DICOM** open source qui permet en pratique de communiquer avec des PACS (envoyer, recevoir, rechercher et rapatrier des examens via storescu, storescp, findscu, movescu), d’inspecter et valider des fichiers DICOM (dcmdump, dcmvalidate pour lire les tags et vérifier la conformité), et de convertir les images médicales vers des formats courants (dcm2jpg, dcm2png, etc.) ; en résumé, c’est un **couteau suisse pour tester, intégrer et manipuler du DICOM** dans des projets d’**imagerie médicale**, que ce soit en contexte technique, pédagogique ou d’**intégration SIH**.
 
@@ -8,7 +8,6 @@ dcm4che met à disposition des **outils en ligne de commande (CLI)** qui permett
 **Architecture PACS complette :** Ci-dessous, les différentes couches techniques d'un PACS. Cette caisse à outils DICOM s'intercale entre le coeur Java et un PACS complet.   
   
 ![Screenshot Actions](Architecture_cible_PACS.png) 
-  
 -------------------------------------------------------------------------------------------------------
 Séquence 1 : Codespace de Github
 -------------------------------------------------------------------------------------------------------
