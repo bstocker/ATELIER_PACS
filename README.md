@@ -1,9 +1,7 @@
 ------------------------------------------------------------------------------------------------------
 ATELIER PACS
 ------------------------------------------------------------------------------------------------------
-L’idée en 30 secondes : **dcm4che** est une **boîte à outils DICOM** open source qui permet en pratique de communiquer avec des PACS (envoyer, recevoir, rechercher et rapatrier des examens via storescu, storescp, findscu, movescu), d’inspecter et valider des fichiers DICOM (dcmdump, dcmvalidate pour lire les tags et vérifier la conformité), et de convertir les images médicales vers des formats courants (dcm2jpg, dcm2png, etc.) ; en résumé, c’est un **couteau suisse pour tester, intégrer et manipuler du DICOM** dans des projets d’**imagerie médicale**, que ce soit en contexte technique, pédagogique ou d’**intégration SIH**.
-
-dcm4che met à disposition des **outils en ligne de commande (CLI)** qui permettent de **manipuler des fichiers DICOM**, d’envoyer ou de recevoir des images médicales et d’analyser leur contenu ; ces outils peuvent s’enchaîner pour former un flux de travail complet autour de l’imagerie médicale. **dcm4che constitue aussi un véritable "moteur DICOM"** : il sert de base logicielle à des systèmes plus complets, notamment des PACS comme dcm4che**e**.  
+L’idée en 30 secondes : Cet atelier est un **PACS open source complet** basé sur les bibliothèques dcm4che, qui **permet de stocker, indexer et distribuer des images médicales au format DICOM**. Il gère la réception d’examens depuis les modalités (scanner, IRM, radiographie…), l’archivage sécurisé des études, la recherche des patients et examens **via une interface web**, ainsi que l’exposition des données en DICOMweb (QIDO, WADO, STOW) pour des viewers ou des systèmes tiers. Utilisé en recherche, en enseignement et dans certains environnements cliniques, dcm4chee sert de socle PACS pour **comprendre et expérimenter les flux d’imagerie médicale dans un SIH**.  
   
 -------------------------------------------------------------------------------------------------------
 Séquence 1 : Codespace de Github
